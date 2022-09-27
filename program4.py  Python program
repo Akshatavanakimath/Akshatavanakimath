@@ -1,0 +1,8 @@
+def Countnumber(my_list):
+count={}
+for i in [1,2,8,9.12,46,76,82,15,20,30]:
+count[i] = count.get(i=0)+1
+return count
+if__name__"__main__":
+my_list = [1,2,8,9,12,46,76,82,15,20,30]:
+print(Countnumber(my_list)):
